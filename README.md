@@ -1,5 +1,8 @@
 # React + TypeScript + Vite
 
+## Design spec
+- [Figma Link](https://www.figma.com/file/ODC2jOSyE1QahawF2FQ4LX/Sure-Takehome?type=design&node-id=0%3A1&mode=design&t=kwzQas9ONjgKLyqA-1)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
