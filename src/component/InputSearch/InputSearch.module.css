@@ -1,0 +1,9 @@
+.searchBar {
+  border: 1px solid var(--hue-token-border);
+  padding: var(--space-2xs);
+  border-radius: var(--radii-chip);
+
+  &:focus {
+    border-color: var(--hue-util-brand);
+  }
+}

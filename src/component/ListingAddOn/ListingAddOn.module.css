@@ -1,0 +1,83 @@
+.listingAddOnList {
+  border: 1px solid var(--hue-token-border);
+  list-style-type: none;
+  padding: var(--space-s) var(--space-s) 0;
+  border-radius: var(--radii-default);
+}
+
+.addOnListItem + .addOnListItem {
+  border-top: 1px solid var(--hue-token-border);
+  padding-top: var(--space-s);
+}
+
+.label {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+
+  &:before,
+  &:after {
+    --transition-properties: 100ms ease-in-out;
+    display: block;
+    content: "";
+    top: var(--space-xs);
+    right: var(--space-2xs);
+    position: absolute;
+  }
+
+  /*background on the toggle */
+  &:before {
+    width: calc((30px + 4px) * 2);
+    height: calc(30px + 8px);
+    background-color: var(--hue-neutral-600);
+    border-radius: var(--radii-pill);
+    transition: var(--transition-properties) background-color;
+  }
+
+  /*foreground on the toggle */
+  &:after {
+    background-color: var(--hue-util-white);
+    border-radius: var(--radii-circle);
+    width: 30px;
+    height: 30px;
+    right: calc(var(--space-2xs) + 34px);
+    top: calc(var(--space-xs) + 4px);
+    transition: var(--transition-properties) transform;
+  }
+}
+
+.addOn:focus-within .label {
+  background-color: var(--hue-emerald-50);
+  outline: 1px solid var(--hue-util-brand);
+  border-radius: var(--radii-chip);
+}
+
+.addOn:has(input[type="checkbox"]:checked) {
+  .label:before {
+    background-color: var(--hue-util-brand);
+  }
+
+  .label:after {
+    transform: translateX(30px);
+  }
+}
+
+.price {
+  color: var(--hue-util-brand);
+  font-size: var(--step-2);
+  font-weight: 700;
+  aspect-ratio: 1 / 1;
+  width: var(--space-2xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.labelContent {
+  padding: 0 var(--space-3xl) 0 var(--space-s);
+}
+
+.labelTitle {
+  font-weight: 700;
+}

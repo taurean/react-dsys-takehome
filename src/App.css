@@ -1,0 +1,103 @@
+h2 {
+  font-size: var(--step-3);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--step-2);
+  font-weight: 700;
+  margin: var(--space-l) 0 var(--space-3xs);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: var(--default-grid);
+  max-width: var(--grid-max-width);
+  margin: var(--space-m) auto;
+  padding-inline: var(--grid-gutter);
+  gap: var(--grid-gutter);
+}
+
+.listing {
+  max-width: var(--grid-max-width);
+  grid-column: span 8;
+  margin: 0 auto;
+}
+
+.listingMetadata {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-xs);
+}
+
+.ratingCount {
+  color: var(--hue-blue-700);
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.addOnSection {
+  margin-bottom: var(--space-3xl);
+}
+
+.summary {
+  grid-column: span 4;
+  margin-top: var(--space-3xl);
+
+  h3 {
+    font-size: var(--step-0);
+    margin-top: 0;
+  }
+}
+
+.summaryPrice {
+  margin-bottom: var(--space-s);
+}
+
+.summaryPriceValue {
+  font-size: var(--step-3);
+  font-weight: 700;
+}
+
+.summaryPriceLabel {
+  font-size: var(--step--1);
+  font-weight: 700;
+  color: var(--hue-neutral-700);
+}
+
+.summary .input {
+  & + & {
+    margin-top: var(--space-2xs);
+  }
+}
+
+.summaryItems {
+  margin-top: var(--space-m);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--hue-token-border);
+}
+
+.summaryFee,
+.summaryTotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summaryTotal {
+  font-weight: 700;
+}
+
+.summaryBookButton {
+  margin-top: var(--space-m);
+}
+
+footer {
+  background-color: var(--hue-util-brand);
+  color: var(--hue-util-white);
+}

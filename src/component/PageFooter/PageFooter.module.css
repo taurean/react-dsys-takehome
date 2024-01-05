@@ -1,0 +1,30 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--grid-max-width);
+  padding-block: var(--space-l);
+  padding-inline: var(--grid-gutter);
+}
+
+.brandCopyright {
+  display: block;
+}
+
+.logo {
+  margin-right: var(--space-xs);
+}
+
+.navList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navListItem {
+  display: inline-block;
+
+  & + & {
+    margin-left: var(--space-xs);
+  }
+}

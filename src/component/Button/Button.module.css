@@ -1,0 +1,27 @@
+.button {
+  background-color: var(--hue-util-brand);
+  color: var(--hue-util-white);
+  text-align: center;
+  padding: var(--space-xs) var(--space-m);
+  border-radius: var(--radii-pill);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+  }
+
+  &:focus {
+    text-decoration: underline;
+    outline: 2px solid var(--hue-emerald-800);
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+.isFullWidth {
+  display: block;
+  width: 100%;
+}

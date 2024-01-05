@@ -1,0 +1,13 @@
+.header {
+  border-bottom: 1px solid var(--hue-neutral-500);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--grid-max-width);
+  padding-block: var(--space-xs);
+  padding-inline: var(--grid-gutter);
+}

@@ -1,0 +1,39 @@
+.selectWrapper {
+  position: relative;
+
+  /* hacky way to get a down arrow icon on a native element */
+  &:after {
+    display: inline-flex;
+    line-height: 0;
+    content: "⌄";
+    z-index: 2;
+    right: var(--space-xs);
+    bottom: 2.125rem;
+    position: absolute;
+    text-align: center;
+    font-size: var(--step-3);
+  }
+
+  &:focus-within&:after {
+    color: var(--hue-util-brand);
+  }
+}
+
+.label {
+  display: block;
+  font-size: var(--step--2);
+  font-weight: 700;
+}
+
+.select {
+  display: flex;
+  padding: var(--space-2xs) var(--space-xs);
+  width: 100%;
+  border: 1px solid var(--hue-token-border);
+  position: relative;
+
+  &:focus {
+    border-color: var(--hue-util-brand);
+    color: var(--hue-util-brand);
+  }
+}
