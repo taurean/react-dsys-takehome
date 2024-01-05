@@ -1,5 +1,7 @@
 # React + TypeScript + Vite
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fcbf1a3-1387-42dd-baea-d18819d8ae47/deploy-status)](https://app.netlify.com/sites/aquamarine-flan-f28265/deploys)
+
 ## Design spec
 - [Figma Link](https://www.figma.com/file/ODC2jOSyE1QahawF2FQ4LX/Sure-Takehome?type=design&node-id=0%3A1&mode=design&t=kwzQas9ONjgKLyqA-1)
 
