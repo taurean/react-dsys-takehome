@@ -1,3 +1,12 @@
+# Design Systems interview project
+
+The request was to take a messy figma file and:
+- clean up the Figma file
+- establish a simple design system in figma
+- create a simple one-page static react page using the same design system established in figma
+
+---
+
 # React + TypeScript + Vite
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2fcbf1a3-1387-42dd-baea-d18819d8ae47/deploy-status)](https://app.netlify.com/sites/aquamarine-flan-f28265/deploys)
