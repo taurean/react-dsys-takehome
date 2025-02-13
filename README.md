@@ -1,7 +1,7 @@
 # Design Systems interview project
 
 The request was to take a messy figma file and:
-- clean up the [Figma Link](https://www.figma.com/file/ODC2jOSyE1QahawF2FQ4LX/Sure-Takehome?type=design&node-id=0%3A1&mode=design&t=kwzQas9ONjgKLyqA-1)
+- clean up the [Figma Link](https://www.figma.com/design/ODC2jOSyE1QahawF2FQ4LX/React-design-system-takehome?node-id=1-85&p=f&t=4IP12rsEXkF7yS90-0)
 - establish a simple design system in figma
 - create a simple one-page static react page using the same design system established in figma
 
