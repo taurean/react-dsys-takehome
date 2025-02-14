@@ -1,11 +1,15 @@
 .content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 auto;
   max-width: var(--grid-max-width);
   padding-block: var(--space-l);
   padding-inline: var(--grid-gutter);
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .brandCopyright {

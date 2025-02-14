@@ -8,6 +8,20 @@ export function PageFooter() {
         <div className={styles.brandCopyright}>
           <Logo color="util-white" className={styles.logo} />
           <span>© 2023 Triangles, Inc.</span>
+          <div
+            style={{
+              maxWidth: "500px",
+              marginBlock: "0.5em",
+              textWrap: "pretty",
+            }}
+          >
+            This was a takehome project while interviewing for a front-end
+            position on a design system team. You can view the{" "}
+            <a href="https://github.com/taurean/react-dsys-takehome">
+              public repo on github
+            </a>{" "}
+            for more info.
+          </div>
         </div>
         <div>
           <nav className={styles.navigation}>
